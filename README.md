@@ -1,5 +1,5 @@
 
-# 💻 K-2S0 API
+# 💻 PetAPI
 
 <details>
   <summary>Conteúdo</summary>
@@ -22,29 +22,30 @@
 
 ## Sobre o projeto
 
-Uma API Rest para comunicação e persistência dos meus bots K-2SO. Até o momento, temos duas versões:
-
-* Bot para discord
-* Bot para telegram
-
-Ambos utilizam automações e eventos para otimizar meu dia. Essa API é um centralizador de algumas informações que constituem o ecosistema dos bots.
+Uma API Rest para persistência de informações sobre pets. Aqui, você pode cadastrar, consultar, alterar ou excluir o cadastro de um pet de forma simples e fácil através de uma requisição HTTP.
 
 ### Buildando e rodando
 
 Esse projeto utiliza [Docker](https://www.docker.com/) para virtualização do ambiente. Todas as dependencias são copiadas para dentro do container, e então instaladas. Posteriormente, copiamos todos os outros arquivos e inicializamos a aplicação. Para executá-la localmente, primeiro você precisará construir a imagem:
 
 ```sh
-docker build -t csorgo/k2soAPI .
+docker build -t csorgo/PetAPI .
 ```
 
 Após o build, basta executar o container:
 
 ```sh
-docker run csorgo/k2soAPI -p 80
+docker run csorgo/PetAPI -p 80
 ```
 
 ## Primeiros passos
 
+Ainda nada!
+
 ### Pré requisitos
 
+Ainda nenhum!
+
 ### Instalação
+
+Não é necessário ainda!
